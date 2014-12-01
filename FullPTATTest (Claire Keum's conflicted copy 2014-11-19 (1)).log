@@ -1,0 +1,104 @@
+Circuit: * C:\Users\akeum\Dropbox\VLSI_Project\FullPTATTest.asc
+
+WARNING: Node X1:NC_01 is floating.
+
+Instance "m:x1:16": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:x1:16": Width narrower than recommended for a level 1 MOSFET.
+Instance "m:x1:15": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:x1:15": Width narrower than recommended for a level 1 MOSFET.
+Instance "m:x1:13": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:x1:13": Width narrower than recommended for a level 1 MOSFET.
+Instance "m:x1:12": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:x1:12": Width narrower than recommended for a level 1 MOSFET.
+Instance "m:x1:11": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:x1:11": Width narrower than recommended for a level 1 MOSFET.
+Instance "m:x1:10": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:x1:10": Width narrower than recommended for a level 1 MOSFET.
+Instance "m:x1:7": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:x1:7": Width narrower than recommended for a level 1 MOSFET.
+Instance "m:x1:6": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:x1:6": Width narrower than recommended for a level 1 MOSFET.
+Instance "m:x1:5": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:x1:5": Width narrower than recommended for a level 1 MOSFET.
+Instance "m:x1:4": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:x1:4": Width narrower than recommended for a level 1 MOSFET.
+Instance "m6": Length shorter than recommended for a level 1 MOSFET.
+Instance "m6": Width narrower than recommended for a level 1 MOSFET.
+Instance "m5": Length shorter than recommended for a level 1 MOSFET.
+Instance "m5": Width narrower than recommended for a level 1 MOSFET.
+Instance "m4": Length shorter than recommended for a level 1 MOSFET.
+Instance "m4": Width narrower than recommended for a level 1 MOSFET.
+Instance "m3": Length shorter than recommended for a level 1 MOSFET.
+Instance "m3": Width narrower than recommended for a level 1 MOSFET.
+Instance "m2": Length shorter than recommended for a level 1 MOSFET.
+Instance "m2": Width narrower than recommended for a level 1 MOSFET.
+Instance "m1": Length shorter than recommended for a level 1 MOSFET.
+Instance "m1": Width narrower than recommended for a level 1 MOSFET.
+Instance "m:x2:4": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:x2:4": Width narrower than recommended for a level 1 MOSFET.
+Instance "m:x2:3": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:x2:3": Width narrower than recommended for a level 1 MOSFET.
+Instance "m:x2:2": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:x2:2": Width narrower than recommended for a level 1 MOSFET.
+Instance "m:x2:1": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:x2:1": Width narrower than recommended for a level 1 MOSFET.
+Instance "m:x1:18": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:x1:18": Width narrower than recommended for a level 1 MOSFET.
+Instance "m:x1:17": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:x1:17": Width narrower than recommended for a level 1 MOSFET.
+Instance "m:x1:14": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:x1:14": Width narrower than recommended for a level 1 MOSFET.
+Instance "m:x1:9": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:x1:9": Width narrower than recommended for a level 1 MOSFET.
+Instance "m:x1:8": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:x1:8": Width narrower than recommended for a level 1 MOSFET.
+Instance "m:x1:3": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:x1:3": Width narrower than recommended for a level 1 MOSFET.
+Instance "m:x1:2": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:x1:2": Width narrower than recommended for a level 1 MOSFET.
+Instance "m:x1:1": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:x1:1": Width narrower than recommended for a level 1 MOSFET.
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+Gmin = 1.07374
+Gmin = 0.115292
+Gmin = 0.0123794
+Gmin = 0.00132923
+Gmin = 0.000142725
+Gmin = 1.5325e-005
+Gmin = 1.6455e-006
+Gmin = 1.76685e-007
+Gmin = 1.89714e-008
+Gmin = 2.03704e-009
+Gmin = 2.18725e-010
+Gmin = 2.34854e-011
+Gmin = 2.52173e-012
+Gmin = 2.70769e-013
+Gmin = 0
+Gmin stepping succeeded in finding the operating point.
+
+.step temp=0°C
+.step temp=10°C
+.step temp=20°C
+.step temp=30°C
+
+Date: Wed Nov 19 22:30:22 2014
+Total elapsed time: 0.507 seconds.
+
+tnom = 27
+temp = 30
+method = modified trap
+totiter = 3703
+traniter = 3237
+tranpoints = 1399
+accept = 1315
+rejected = 84
+matrix size = 29
+fillins = 26
+solver = Normal
+Thread vector: 15.6/10.1[2] 5.0/3.0[2] 2.0/32.4[1] 0.3/0.6[1]  2592/500
+Matrix Compiler1: 4.32 KB object code size  1.2/0.6/[0.4]
+Matrix Compiler2:     272 opcodes  0.5/[0.5]/0.8
+
+
