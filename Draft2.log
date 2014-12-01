@@ -1,6 +1,7 @@
-Circuit: * C:\Users\akeum\Dropbox\VLSI_Project\FullPTATTest.asc
+Circuit: * C:\Users\akeum\Dropbox\VLSI_Project\Draft2.asc
 
-WARNING: Node X1:NC_01 is floating.
+WARNING: Node P001 is floating.
+WARNING: Node P002 is floating.
 
 Instance "m:x1:16": Length shorter than recommended for a level 1 MOSFET.
 Instance "m:x1:16": Width narrower than recommended for a level 1 MOSFET.
@@ -22,26 +23,10 @@ Instance "m:x1:5": Length shorter than recommended for a level 1 MOSFET.
 Instance "m:x1:5": Width narrower than recommended for a level 1 MOSFET.
 Instance "m:x1:4": Length shorter than recommended for a level 1 MOSFET.
 Instance "m:x1:4": Width narrower than recommended for a level 1 MOSFET.
-Instance "m6": Length shorter than recommended for a level 1 MOSFET.
-Instance "m6": Width narrower than recommended for a level 1 MOSFET.
-Instance "m5": Length shorter than recommended for a level 1 MOSFET.
-Instance "m5": Width narrower than recommended for a level 1 MOSFET.
-Instance "m4": Length shorter than recommended for a level 1 MOSFET.
-Instance "m4": Width narrower than recommended for a level 1 MOSFET.
-Instance "m3": Length shorter than recommended for a level 1 MOSFET.
-Instance "m3": Width narrower than recommended for a level 1 MOSFET.
 Instance "m2": Length shorter than recommended for a level 1 MOSFET.
 Instance "m2": Width narrower than recommended for a level 1 MOSFET.
 Instance "m1": Length shorter than recommended for a level 1 MOSFET.
 Instance "m1": Width narrower than recommended for a level 1 MOSFET.
-Instance "m:x2:4": Length shorter than recommended for a level 1 MOSFET.
-Instance "m:x2:4": Width narrower than recommended for a level 1 MOSFET.
-Instance "m:x2:3": Length shorter than recommended for a level 1 MOSFET.
-Instance "m:x2:3": Width narrower than recommended for a level 1 MOSFET.
-Instance "m:x2:2": Length shorter than recommended for a level 1 MOSFET.
-Instance "m:x2:2": Width narrower than recommended for a level 1 MOSFET.
-Instance "m:x2:1": Length shorter than recommended for a level 1 MOSFET.
-Instance "m:x2:1": Width narrower than recommended for a level 1 MOSFET.
 Instance "m:x1:18": Length shorter than recommended for a level 1 MOSFET.
 Instance "m:x1:18": Width narrower than recommended for a level 1 MOSFET.
 Instance "m:x1:17": Length shorter than recommended for a level 1 MOSFET.
@@ -75,30 +60,44 @@ Gmin = 2.18725e-010
 Gmin = 2.34854e-011
 Gmin = 2.52173e-012
 Gmin = 2.70769e-013
+Terminal Gmin changed to 1e-014
+Gmin = 4.54274e-014
+Terminal Gmin changed to 1e-015
+Gmin = 7.62146e-015
+Gmin = 0
+Terminal Gmin changed to 1e-016
+Gmin = 1.37296e-016
+Terminal Gmin changed to 1e-017
+Gmin = 2.30344e-017
+Terminal Gmin changed to 1e-018
+Gmin = 3.86454e-018
+Terminal Gmin changed to 1e-019
+Gmin = 6.48362e-019
+Terminal Gmin changed to 1e-020
+Gmin = 1.08777e-019
+Gmin = 1.16798e-020
 Gmin = 0
 Gmin stepping succeeded in finding the operating point.
 
-.step temp=0°C
-.step temp=10°C
-.step temp=20°C
-.step temp=30°C
+Heightened Def Con from 2.06e-006 to 2.06e-006
+Heightened Def Con from 4.06e-006 to 4.06e-006
 
-Date: Wed Nov 19 22:30:22 2014
-Total elapsed time: 0.507 seconds.
+Date: Fri Nov 21 17:56:59 2014
+Total elapsed time: 0.125 seconds.
 
 tnom = 27
-temp = 30
+temp = 27
 method = modified trap
-totiter = 3703
-traniter = 3237
-tranpoints = 1399
-accept = 1315
-rejected = 84
-matrix size = 29
-fillins = 26
+totiter = 3421
+traniter = 1920
+tranpoints = 397
+accept = 305
+rejected = 94
+matrix size = 25
+fillins = 15
 solver = Normal
-Thread vector: 15.6/10.1[2] 5.0/3.0[2] 2.0/32.4[1] 0.3/0.6[1]  2592/500
-Matrix Compiler1: 4.32 KB object code size  1.2/0.6/[0.4]
-Matrix Compiler2:     272 opcodes  0.5/[0.5]/0.8
+Thread vector: 7.9/6.3[2] 3.7/2.1[2] 1.4/1.0[2] 0.2/0.5[1]  2592/500
+Matrix Compiler1: 2.70 KB object code size  0.7/0.3/[0.2]
+Matrix Compiler2:     199 opcodes  0.4/[0.3]/0.9
 
 
