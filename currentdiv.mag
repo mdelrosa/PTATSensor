@@ -1,6 +1,6 @@
 magic
 tech scmos
-timestamp 1417477495
+timestamp 1417635810
 << ptransistor >>
 rect -17 -1 -11 5
 rect -1 -1 5 5
@@ -193,6 +193,8 @@ rect 121 -24 123 -18
 << polycontact >>
 rect -24 0 -20 4
 << metal1 >>
+rect -28 15 -18 21
+rect -28 12 -22 15
 rect -28 11 15 12
 rect -28 8 -16 11
 rect -17 7 -16 8
@@ -255,37 +257,43 @@ rect 88 -12 111 -11
 rect 88 -16 89 -12
 rect 93 -16 106 -12
 rect 110 -16 111 -12
-rect 9 -26 20 -25
+rect 9 -26 15 -25
 rect 9 -30 10 -26
-rect 14 -30 20 -26
-rect 9 -32 20 -30
-rect 27 -26 47 -25
-rect 27 -30 36 -26
-rect 40 -30 47 -26
-rect 27 -32 47 -30
-rect 54 -26 75 -25
-rect 54 -30 62 -26
-rect 66 -30 75 -26
-rect 54 -32 75 -30
-rect 82 -26 94 -25
-rect 82 -30 89 -26
+rect 14 -30 15 -26
+rect 9 -32 15 -30
+rect 35 -26 41 -25
+rect 35 -30 36 -26
+rect 40 -30 41 -26
+rect 35 -32 41 -30
+rect 61 -26 67 -25
+rect 61 -30 62 -26
+rect 66 -30 67 -26
+rect 61 -32 67 -30
+rect 88 -26 94 -25
+rect 88 -30 89 -26
 rect 93 -30 94 -26
-rect 82 -32 94 -30
+rect 88 -32 94 -30
 rect 105 -26 123 -25
 rect 105 -30 106 -26
 rect 110 -30 116 -26
 rect 120 -30 123 -26
 rect 105 -31 123 -30
 << m2contact >>
-rect 20 -32 27 -25
-rect 47 -32 54 -25
-rect 75 -32 82 -25
+rect -18 15 -12 21
 << metal2 >>
-rect -29 -32 20 -25
-rect 27 -32 47 -25
-rect 54 -32 75 -25
-rect 82 -32 94 -25
+rect -28 15 -18 21
+rect -12 15 123 21
+rect 97 -11 121 -5
+rect 9 -33 15 -25
+rect 35 -33 41 -25
+rect 61 -33 67 -25
+rect 88 -33 94 -25
+rect 97 -33 103 -11
+rect 115 -16 121 -11
+rect -28 -39 123 -33
 << labels >>
 rlabel polysilicon -28 -1 -26 5 3 Iin
 rlabel metal1 121 -31 123 -25 8 Iout
+rlabel metal2 -28 -39 -22 -33 2 ground
+rlabel metal2 -28 15 -22 21 4 Vdd
 << end >>
