@@ -1,0 +1,31 @@
+timestamp 1417681198
+version 8.0
+tech scmos
+style AMI0.5um(amic5)from:T11Z
+scale 1000 1 30
+resistclasses 82400 102700 816000 816000 1 22300 41300 41300 90 90 60
+node "Iout" 604 -467.28 105 -31 pdif 0 0 84 52 0 0 0 0 0 0 0 0 0 0 0 0 108 48 0 0 0 0
+node "ground" 1861 -2886.12 9 -31 pdif 0 0 210 130 0 0 0 0 0 0 0 0 0 0 0 0 408 196 1404 480 0 0
+node "a_78_n8#" 1441 -901.08 78 -8 pdif 0 0 168 104 0 0 0 0 0 0 0 0 0 0 0 0 229 94 0 0 0 0
+node "a_51_n8#" 1024 -684.18 51 -8 pdif 0 0 126 78 0 0 0 0 0 0 0 0 0 0 0 0 144 60 0 0 0 0
+node "a_25_n8#" 1024 -684.18 25 -8 pdif 0 0 126 78 0 0 0 0 0 0 0 0 0 0 0 0 144 60 0 0 0 0
+node "a_n1_n8#" 1024 -684.18 -1 -8 pdif 0 0 126 78 0 0 0 0 0 0 0 0 0 0 0 0 144 60 0 0 0 0
+node "Iin" 1154 -567 -28 -1 p 0 0 42 26 0 0 0 0 0 0 1621 560 0 0 0 0 110 54 0 0 0 0
+node "Vdd" 3515 -2345.4 -17 5 pdif 0 0 378 234 0 0 0 0 0 0 0 0 0 0 0 0 824 294 906 314 0 0
+cap "Iin" "ground" 322.2
+cap "ground" "a_78_n8#" 651
+fet pfet 115 -24 116 -23 36 24 "Vdd!" "Iin" 12 0 "Iout" 6 0 "ground" 6 0
+fet pfet 105 -24 106 -23 36 24 "Vdd!" "Iin" 12 0 "Iout" 6 0 "a_78_n8#" 6 0
+fet pfet 88 -24 89 -23 36 24 "Vdd!" "Iin" 12 0 "ground" 6 0 "a_78_n8#" 6 0
+fet pfet 61 -24 62 -23 36 24 "Vdd!" "Iin" 12 0 "ground" 6 0 "a_51_n8#" 6 0
+fet pfet 35 -24 36 -23 36 24 "Vdd!" "Iin" 12 0 "ground" 6 0 "a_25_n8#" 6 0
+fet pfet 9 -24 10 -23 36 24 "Vdd!" "Iin" 12 0 "ground" 6 0 "a_n1_n8#" 6 0
+fet pfet 88 -1 89 0 36 24 "Vdd!" "Iin" 12 0 "a_78_n8#" 6 0 "Vdd" 6 0
+fet pfet 78 -1 79 0 36 24 "Vdd!" "Iin" 12 0 "a_78_n8#" 6 0 "Vdd" 6 0
+fet pfet 61 -1 62 0 36 24 "Vdd!" "Iin" 12 0 "a_51_n8#" 6 0 "Vdd" 6 0
+fet pfet 51 -1 52 0 36 24 "Vdd!" "Iin" 12 0 "a_51_n8#" 6 0 "Vdd" 6 0
+fet pfet 35 -1 36 0 36 24 "Vdd!" "Iin" 12 0 "a_25_n8#" 6 0 "Vdd" 6 0
+fet pfet 25 -1 26 0 36 24 "Vdd!" "Iin" 12 0 "a_25_n8#" 6 0 "Vdd" 6 0
+fet pfet 9 -1 10 0 36 24 "Vdd!" "Iin" 12 0 "a_n1_n8#" 6 0 "Vdd" 6 0
+fet pfet -1 -1 0 0 36 24 "Vdd!" "Iin" 12 0 "a_n1_n8#" 6 0 "Vdd" 6 0
+fet pfet -17 -1 -16 0 36 24 "Vdd!" "Iin" 12 0 "Iin" 6 0 "Vdd" 6 0

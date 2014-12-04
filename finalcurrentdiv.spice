@@ -1,0 +1,34 @@
+* SPICE3 file created from finalcurrentdiv.ext - technology: scmos
+
+.option scale=0.3u
+
+M1000 Vdd Iin Iin Vdd pfet w=6 l=6
++  ad=378 pd=234 as=42 ps=26
+M1001 Vdd Iin a_n1_n8# Vdd pfet w=6 l=6
++  ad=0 pd=0 as=126 ps=78
+M1002 Vdd Iin a_n1_n8# Vdd pfet w=6 l=6
++  ad=0 pd=0 as=0 ps=0
+M1003 Vdd Iin a_25_n8# Vdd pfet w=6 l=6
++  ad=0 pd=0 as=126 ps=78
+M1004 Vdd Iin a_25_n8# Vdd pfet w=6 l=6
++  ad=0 pd=0 as=0 ps=0
+M1005 Vdd Iin a_51_n8# Vdd pfet w=6 l=6
++  ad=0 pd=0 as=126 ps=78
+M1006 Vdd Iin a_51_n8# Vdd pfet w=6 l=6
++  ad=0 pd=0 as=0 ps=0
+M1007 Vdd Iin a_78_n8# Vdd pfet w=6 l=6
++  ad=0 pd=0 as=168 ps=104
+M1008 Vdd Iin a_78_n8# Vdd pfet w=6 l=6
++  ad=0 pd=0 as=0 ps=0
+M1009 a_n1_n8# Iin ground Vdd pfet w=6 l=6
++  ad=0 pd=0 as=210 ps=130
+M1010 a_25_n8# Iin ground Vdd pfet w=6 l=6
++  ad=0 pd=0 as=0 ps=0
+M1011 a_51_n8# Iin ground Vdd pfet w=6 l=6
++  ad=0 pd=0 as=0 ps=0
+M1012 a_78_n8# Iin ground Vdd pfet w=6 l=6
++  ad=0 pd=0 as=0 ps=0
+M1013 a_78_n8# Iin Iout Vdd pfet w=6 l=6
++  ad=0 pd=0 as=84 ps=52
+M1014 ground Iin Iout Vdd pfet w=6 l=6
++  ad=0 pd=0 as=0 ps=0

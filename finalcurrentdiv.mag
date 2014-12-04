@@ -1,6 +1,6 @@
 magic
 tech scmos
-timestamp 1417680960
+timestamp 1417681198
 << ptransistor >>
 rect -17 -1 -11 5
 rect -1 -1 5 5
@@ -196,28 +196,19 @@ rect -24 0 -20 4
 << metal1 >>
 rect -28 15 -18 21
 rect -28 12 -22 15
-rect -28 11 15 12
+rect -28 11 94 12
 rect -28 8 -16 11
 rect -17 7 -16 8
 rect -12 7 0 11
 rect 4 7 10 11
-rect 14 7 15 11
-rect -17 6 15 7
-rect 25 11 41 12
-rect 25 7 26 11
+rect 14 7 26 11
 rect 30 7 36 11
-rect 40 7 41 11
-rect 25 6 41 7
-rect 51 11 67 12
-rect 51 7 52 11
+rect 40 7 52 11
 rect 56 7 62 11
-rect 66 7 67 11
-rect 51 6 67 7
-rect 78 11 94 12
-rect 78 7 79 11
+rect 66 7 79 11
 rect 83 7 89 11
 rect 93 7 94 11
-rect 78 6 94 7
+rect -17 6 94 7
 rect -25 4 -20 5
 rect -25 0 -24 4
 rect -25 -3 -20 0
