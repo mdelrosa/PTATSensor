@@ -1,0 +1,19 @@
+* Z:\home\akeum\Desktop\VLSI\PTATSensor\finalcurrent.asc
+M1 Iin Iin pos pos pfet l=3u w=3u
+M3 N001 Iin pos pos pfet l=3u w=3u
+M4 N002 Iin N001 pos pfet l=3u w=3u
+M5 N003 Iin N002 pos pfet l=3u w=3u
+M6 N004 Iin N003 pos pfet l=3u w=3u
+M8 Iout Iin N004 pos pfet l=3u w=3u
+M9 Iout Iin neg pos pfet l=3u w=3u
+M12 neg Iin N001 pos pfet l=3u w=3u
+M13 neg Iin N002 pos pfet l=3u w=3u
+M14 neg Iin N003 pos pfet l=3u w=3u
+M15 neg Iin N004 pos pfet l=3u w=3u
+M2 N001 Iin pos pos pfet l=3u w=3u
+M7 N002 Iin N001 pos pfet l=3u w=3u
+M10 N003 Iin N002 pos pfet l=3u w=3u
+M11 N004 Iin N003 pos pfet l=3u w=3u
+.model NMOS NMOS
+.model PMOS PMOS
+.end

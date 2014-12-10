@@ -1,0 +1,39 @@
+* SPICE3 file created from finalcurrentdiv.ext - technology: scmos
+
+.global Vdd Gnd 
+
+
+* Top level circuit finalcurrentdiv
+
+M1 Vdd a_n29_19# a_n29_19# Vdd pfet w=10 l=10
++  ad=240 pd=108 as=80 ps=36
+M3 Vdd a_n29_19# a_7_11# Vdd pfet w=10 l=10
++  ad=0 pd=0 as=330 ps=146
+M2 Vdd a_n29_19# a_7_11# Vdd pfet w=10 l=10
++  ad=0 pd=0 as=0 ps=0
+M4 a_7_11# a_n29_19# a_33_11# Vdd pfet w=10 l=10
++  ad=0 pd=0 as=330 ps=146
+M7 a_7_11# a_n29_19# a_33_11# Vdd pfet w=10 l=10
++  ad=0 pd=0 as=0 ps=0
+M5 a_33_11# a_n29_19# a_59_11# Vdd pfet w=10 l=10
++  ad=0 pd=0 as=330 ps=146
+M10 a_33_11# a_n29_19# a_59_11# Vdd pfet w=10 l=10
++  ad=0 pd=0 as=0 ps=0
+M6 a_59_11# a_n29_19# a_86_11# Vdd pfet w=10 l=11
++  ad=0 pd=0 as=250 ps=110
+M11 a_59_11# a_n29_19# a_86_11# Vdd pfet w=10 l=10
++  ad=0 pd=0 as=0 ps=0
+M12 a_7_11# a_n29_19# Gnd Vdd pfet w=10 l=10
++  ad=0 pd=0 as=400 ps=180
+M13 a_33_11# a_n29_19# Gnd Vdd pfet w=10 l=10
++  ad=0 pd=0 as=0 ps=0
+M14 a_59_11# a_n29_19# Gnd Vdd pfet w=10 l=10
++  ad=0 pd=0 as=0 ps=0
+M15 a_86_11# a_n29_19# Gnd Vdd pfet w=10 l=10
++  ad=0 pd=0 as=0 ps=0
+M8 a_86_11# a_n29_19# a_121_n8# Vdd pfet w=10 l=10
++  ad=0 pd=0 as=160 ps=72
+M9 Gnd a_n29_19# a_121_n8# Vdd pfet w=10 l=10
++  ad=0 pd=0 as=0 ps=0
+.end
+
