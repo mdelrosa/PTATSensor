@@ -1,0 +1,6 @@
+* SPICE3 file created from CVBT.ext - technology: scmos
+
+.option scale=0.3u
+
+M1000 a_73_21# a_69_19# a_66_21# Vdd pfet w=4 l=4
++  ad=12 pd=14 as=12 ps=14
