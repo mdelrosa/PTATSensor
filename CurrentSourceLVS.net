@@ -1,0 +1,18 @@
+* Z:\home\akeum\Desktop\VLSI\PTATSensor\CurrentSourceLVS.asc
+M1 N002 N002 Neg Neg nfet l=1.2u w=12u
+M2 N001 N002 N004 Neg nfet l=1.2u w=120u
+M3 N001 N001 Vdd Vdd pfet l=3u w=3u
+M4 N002 N001 Vdd Vdd pfet l=3u w=3u
+M5 N003 N001 Vdd Vdd pfet l=3u w=9u
+M6 Push_I N001 Vdd Vdd pfet l=3u w=3.9u
+M7 N003 N003 Neg Neg nfet l=120u w=1.2u
+M8 Pull_I N003 Neg Neg nfet l=3u w=3.9u
+M9 N004 N003 Neg Neg nfet l=120u w=1.2u
+M10 N001 N002 N004 Neg nfet l=1.2u w=120u
+
+.end
+
+001 a_n6_n101
+002 a_n0_n105
+
+5,4,3,6,10,2,1,7,9,8
