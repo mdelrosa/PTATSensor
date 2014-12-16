@@ -1,6 +1,6 @@
 magic
 tech scmos
-timestamp 1418693430
+timestamp 1418700150
 << electrodecontact >>
 rect 78 792 86 800
 rect 115 792 123 800
@@ -349,8 +349,12 @@ rect 590 255 619 262
 rect -139 192 13 198
 rect -27 180 3 186
 rect 725 168 1361 175
+rect -320 154 9 163
 rect 713 154 1351 161
+rect -332 144 -282 150
+rect -348 135 -281 141
 rect -106 140 -45 146
+rect 0 143 9 154
 rect -113 121 -105 127
 rect -305 110 -253 116
 rect -177 110 -176 116
@@ -403,8 +407,13 @@ rect -145 192 -139 198
 rect -33 180 -27 186
 rect 718 168 725 175
 rect 1361 168 1368 175
+rect -329 154 -320 163
 rect 706 154 713 161
 rect 1351 154 1358 161
+rect -526 141 -517 150
+rect -338 144 -332 150
+rect -282 144 -276 150
+rect -281 135 -275 141
 rect -112 140 -106 146
 rect -45 140 -39 146
 rect -253 110 -247 116
@@ -433,9 +442,15 @@ rect -73 12 -67 18
 rect -88 0 -81 7
 << metal2 >>
 rect -293 342 -286 598
+rect -517 144 -338 150
+rect -818 7 -805 80
+rect -329 47 -320 79
 rect -292 75 -286 342
 rect -247 110 -183 116
 rect -145 75 -139 192
+rect -298 27 -291 34
+rect -818 1 -463 7
+rect -296 5 -291 27
 rect -112 27 -106 140
 rect -85 131 -79 548
 rect -76 107 -70 537
@@ -456,6 +471,14 @@ rect 1351 65 1358 154
 rect 1361 95 1368 168
 rect -296 0 -268 5
 rect -152 0 -88 5
+use current_source  current_source_0
+timestamp 1418681314
+transform 0 1 -293 -1 0 929
+box -59 -526 867 -27
+use finalcurrentdiv  finalcurrentdiv_0
+timestamp 1418087466
+transform 1 0 -446 0 1 8
+box -31 -8 149 45
 use PTAT  PTAT_0
 timestamp 1417640631
 transform 1 0 -196 0 1 112
