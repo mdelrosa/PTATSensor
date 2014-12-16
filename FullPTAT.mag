@@ -1,6 +1,6 @@
 magic
 tech scmos
-timestamp 1418700150
+timestamp 1418718510
 << electrodecontact >>
 rect 78 792 86 800
 rect 115 792 123 800
@@ -351,15 +351,26 @@ rect -27 180 3 186
 rect 725 168 1361 175
 rect -320 154 9 163
 rect 713 154 1351 161
-rect -332 144 -282 150
+rect -304 144 -282 150
 rect -348 135 -281 141
 rect -106 140 -45 146
 rect 0 143 9 154
+rect -338 121 -305 127
 rect -113 121 -105 127
-rect -305 110 -253 116
+rect -338 94 -331 121
+rect -826 88 -331 94
+rect -327 110 -253 116
 rect -177 110 -176 116
+rect -327 85 -320 110
+rect -826 79 -320 85
+rect -316 76 -304 82
+rect -316 75 -310 76
+rect -826 69 -310 75
 rect -286 69 -280 74
 rect -151 69 -145 74
+rect -304 56 -286 62
+rect -519 20 -473 26
+rect -292 7 -286 56
 rect -130 18 -124 76
 rect -112 67 -105 121
 rect -85 124 -79 125
@@ -393,6 +404,7 @@ rect -76 21 -67 27
 rect -39 21 -38 27
 rect -130 12 -89 18
 rect -67 12 -28 18
+rect -309 1 -286 7
 rect -81 0 1 7
 << m2contact >>
 rect -293 598 -286 605
@@ -410,16 +422,18 @@ rect 1361 168 1368 175
 rect -329 154 -320 163
 rect 706 154 713 161
 rect 1351 154 1358 161
-rect -526 141 -517 150
-rect -338 144 -332 150
+rect -310 144 -304 150
 rect -282 144 -276 150
 rect -281 135 -275 141
 rect -112 140 -106 146
 rect -45 140 -39 146
+rect -525 98 -519 104
 rect -253 110 -247 116
 rect -183 110 -177 116
 rect -292 69 -286 75
 rect -145 69 -139 75
+rect -310 56 -304 62
+rect -525 20 -519 26
 rect -85 125 -79 131
 rect -65 125 -59 131
 rect -76 101 -70 107
@@ -439,12 +453,14 @@ rect -64 31 -58 37
 rect -112 21 -106 27
 rect -45 21 -39 27
 rect -73 12 -67 18
+rect -5 13 1 19
 rect -88 0 -81 7
 << metal2 >>
 rect -293 342 -286 598
-rect -517 144 -338 150
-rect -818 7 -805 80
-rect -329 47 -320 79
+rect -818 7 -805 90
+rect -525 26 -519 98
+rect -329 47 -320 100
+rect -310 62 -305 144
 rect -292 75 -286 342
 rect -247 110 -183 116
 rect -145 75 -139 192
@@ -471,9 +487,10 @@ rect 1351 65 1358 154
 rect 1361 95 1368 168
 rect -296 0 -268 5
 rect -152 0 -88 5
+rect -5 -13 2 13
 use current_source  current_source_0
 timestamp 1418681314
-transform 0 1 -293 -1 0 929
+transform 0 1 -293 -1 0 954
 box -59 -526 867 -27
 use finalcurrentdiv  finalcurrentdiv_0
 timestamp 1418087466
@@ -487,4 +504,11 @@ use CMFFDiffAmp  CMFFDiffAmp_0
 timestamp 1418250215
 transform 1 0 661 0 1 50
 box -661 -50 689 93
+<< labels >>
+rlabel metal2 -5 -13 2 -6 1 Vb
+rlabel metal1 -826 79 -820 85 3 CLK1
+rlabel metal1 -826 88 -820 94 3 CLK3
+rlabel metal1 -826 69 -820 75 3 CLK2
+rlabel metal2 -815 4 -809 10 1 GND
+rlabel space -329 998 -320 1006 1 VDD
 << end >>
